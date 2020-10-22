@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project.BAL.ImplementInterface\Project.BAL.ImplementInterface.csproj" />
+    <ProjectReference Include="..\Project.BAL.Interface\Project.BAL.Interface.csproj" />
+    <ProjectReference Include="..\Project.DAL.ImplementInterface\Project.DAL.ImplementInterface.csproj" />
+    <ProjectReference Include="..\Project.DAL.Interface\Project.DAL.Interface.csproj" />
+    <ProjectReference Include="..\ProjectAPI\ProjectAPI.csproj" />
+  </ItemGroup>
+
+</Project>
